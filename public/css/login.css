@@ -2,23 +2,68 @@
   text-align: center;
   border-bottom: 1px solid lightgrey;
   font-family: sans-serif;
+  width: 600px;
+  height: 20px;
+  padding: 10px 20px;
+  margin-left: 300px;
+  color: lightgrey;
 }
-#login-field {
-
-
+#login-field {}
+.boxed {
+  border: 0.5px solid grey;
+  margin-bottom: 30%;
 }
+
 .input-container {
-  margin-left: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
 }
 input {
   display: block;
+  margin: 3px;
+  width: 300px;
+  height: 400px;
+  margin-right: 500px;
+
 }
 #email-field {
   height: 30px;
   width: 300px;
-  margin-top: 250px;
+border-radius: 5px;
 }
 #password-field {
+  color: teal;
   margin-top: 10px;
   height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+
+  padding: 4px;
+}
+#footer-text {
+   width: 570px;
+   height: 14px;
+   padding: 15px;
+   border-top:1px solid lightgrey;
+   text-align: center;
+}
+button {
+ display: inline-block;
+ width: 300px;
+ font-size: 16px;
+ padding: 11px 20px;
+ color: white;
+ background-color: teal;
+ border: none;
+ margin-top: 10px;
+ position: relative;
+ left: 5px;
+ line-height: normal;
+ box-sizing: border-box;
+ border-radius: 4px;
 }
