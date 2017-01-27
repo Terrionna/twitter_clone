@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login to Twitterish</title>
+  <title>Log in to Twitterish</title>
   <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+<div>
   <header>
-    <h3>Login to Twitterish</h3>
+      <h3 id= "login-to-twitter">Log in to Twitterish</h3>
   </header>
+</div>
   <main>
-    <form action="login" method="GET">
-     <input type="email" name='email' placeholder="Email">
-     <input type="password" name='password'>
+<div>
+    <form class= "input-container" action="login" method="GET" id= "login-field">
+     <input type="email" name='email' placeholder="Email" id= "email-field">
+     <input type="password" name='password' id= "password-field">
      <button type="submit">Login</button>
   </form>
+</div>
   </main>
   <footer>
     Dont Have an Account<a href="/signup" Signup></a>
