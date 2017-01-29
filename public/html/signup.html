@@ -4,15 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sign Up for Twitterish</title>
+  <title>Twitterish Sign Up</title>
+  <link rel="stylesheet" href="css/signup.css">
 </head>
-
 <body>
-  <h3>Join Twitter today</h3>
-<main>
-  <form action="enter name" method="get">
-    <input type= "email"  name="Phone or Email" value="Phone or Email">
+  <h1>Join Twitterish Today.</h1>
+<div class="whole-page">
+  <main>
+    <form action="enter name" method="GET">
+        <input type="name" name="name" placeholder="Full Name" id="name-field">
+        <input type= "email"  name="Phone or Email" placeholder= "Phone or Email" id="phone-email">
+        <input type="password" name="password"  placeholder="Password" id="password">
+        <input type="checkbox">  Tailor Twitter based on my recent website visits. <a href="#">Learn More</a>.
+        <button type="submit" name="submit" id="s-button">Sign Up</button>
 
-  </form>
+    </form>
+  </main>
+  <footer>
+  <p id="ua">By signing up, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>,<br> including <a href="#">Cookie Use</a> . Others will be able to find you by email or phone<br> number when provided.</p>
+  <p id="options"><a href="#">Advanced Options</a></p>
+  </footer>
+</div>
 </body>
 </html>

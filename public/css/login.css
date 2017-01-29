@@ -1,6 +1,7 @@
 .whole-page {
   display: block;
   margin-left: 400px;
+  margin-top: 100px;
 }
 
 #login-to-twitter {
@@ -49,4 +50,7 @@ button {
  box-sizing: border-box;
  border-radius: 4px;
  margin-top: 10px;
+}
+#ua {
+
 }

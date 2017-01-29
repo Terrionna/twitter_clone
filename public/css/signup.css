@@ -1,0 +1,59 @@
+.whole-page {
+  display: block;
+  margin-left: 400px;
+}
+button {
+ width: 372px;
+ font-size: 16px;
+ padding: 11px 20px;
+ color: white;
+ background-color: #1da1f2;
+ border: none;
+ position: relative;
+ left: 5px;
+ line-height: normal;
+ box-sizing: border-box;
+ border-radius: 4px;
+ margin-top: 10px;
+}
+input {
+  display: block;
+  margin-top: 10px;
+}
+#name-field {
+  height: 40px;
+  width: 372px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  font-style: arial;
+}
+#phone-email {
+  background-color: rgb(250, 255, 189);
+  height: 40px;
+  width: 372px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  font-style: arial;
+}
+#password {
+  height: 40px;
+  width: 372px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  background-color: rgb(250, 255, 189);
+  color: #8899a6;
+  font-style: arial;
+}
+h1 {
+font-family: arial;
+font-weight: normal;
+margin-left: 400px;
+}
+#ua {
+color: #8899a6;
+font-size: 14px;
+}
+#options {
+  font-size: 14px;
+
+}
