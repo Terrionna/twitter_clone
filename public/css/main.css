@@ -115,10 +115,14 @@ p button {
   line-height: normal;
   box-sizing: border-box;
   border-radius: 4px;
+  margin-bottom: 150px;
 }
 section h2 {
   font-family: arial;
 }
 #now {
   font-size: 12px;
+}
+.bottom-list {
+  display: inline;
 }

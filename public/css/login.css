@@ -3,7 +3,6 @@
   margin-left: 400px;
   margin-top: 100px;
 }
-
 #login-to-twitter {
   text-align: center;
   font-family: sans-serif;
@@ -11,18 +10,22 @@
   height: 20px;
   padding: 10px 20px;
   color: black;
-  margin-left: 175px;
+  margin-left: 300px;
 }
 input {
   width: 300px;
   height: 400px;
   display: block;
+  margin-left: 75px;
 }
 #email-field {
   height: 30px;
-  width: 300px;
+  width: 310px;
 border-radius: 5px;
-
+}
+#checkbox {
+  height: auto;
+  width: auto;
 }
 footer {
   margin-top: 10px;
@@ -38,11 +41,11 @@ footer {
   padding: 4px;
 }
 button {
- width: 300px;
+ width: 310px;
  font-size: 16px;
  padding: 11px 20px;
  color: white;
- background-color: teal;
+ background-color: #1da1f2;
  border: none;
  position: relative;
  left: 5px;
@@ -50,7 +53,13 @@ button {
  box-sizing: border-box;
  border-radius: 4px;
  margin-top: 10px;
+ margin-left: 75px;
 }
-#ua {
-
+header h3 {
+  border-bottom: 1px solid lightgrey;
 }
+.footer-text {
+  margin-left: 75px;
+  margin-top: 75px
+}
+body {
